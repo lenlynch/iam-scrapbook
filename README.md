@@ -8,16 +8,27 @@ MFA with the AWS Console
 
 To configure MFA in the AWS console: 
 1)  Log in to AWS account
+
 2)  Click Services > IAM
+
 3)  Click Users > find your user and click the ID
+
 4)  Click the Security credentials tab
+
 5)  Click edit button next to Assigned MFA device (it should say No)
+
 6)  Select the virtual MFA device radio button and click Next step
+
 7)  Make sure to install an MFA application on your mobile device (e.g., Authy or Google Authenticator). Click Next Step
+
 8)  You should see a QR code. With your MFA application add an account (directions on this vary)
+
 9)  Scan QR code with your mobile device
+
 10) In the mobile app, find the changing code associated with the account you just created and enter it into the AWS console (you will need to use 2 codes to synchronize it)
+
 11) Your MFA is now activated. You will need to logout of AWS and back in using your MFA code in order to assume permissions
+
 
 Using MFA from the CLI
 
